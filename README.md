@@ -87,6 +87,6 @@ It focuses on developing automation skills, test design, and HTTP response analy
 
 ## 👨‍💻 Author
 
-Eduardo Lagunas – QA Tester | TripleTen Bootcamp
+Eduardo Lagunas – QA Tester | TripleTen Bootcamp | cohort 32 QA
 
 ---

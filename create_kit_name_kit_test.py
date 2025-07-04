@@ -15,6 +15,7 @@ def positive_assert(name):
     kit_body = get_kit_body(name)
     kit_response = sender_stand_request.post_new_client_kit(kit_body, auth_token)
     assert kit_response.status_code == 201
+    assert kit_response.json().get('name') == name # <- Correction of Assert that the kit name in the request body matches the name returned in the response
 
 def negative_assert(name):
     response_user = sender_stand_request.post_new_user(data.user_body)
